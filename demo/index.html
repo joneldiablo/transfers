@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>transfers</title>
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../bower_components/free-jqgrid/dist/css/ui.jqgrid.min.css" />
+    <link rel="stylesheet" href="../bower_components/components-font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css" />
+
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="../bower_components/free-jqgrid/dist/jquery.jqgrid.min.js"></script>
+
+    <link rel="stylesheet" href="../src/transfers.css" />
+    <script src="../src/i18n/grid.locale-mx.js"></script>
+    <script src="../src/transfers.js"></script>
+</head>
+
+<body style="background-color: #ebeff2;">
+    <div id="outerDiv" class="card-box" style="margin: 5px;">
+        <table id="list"></table>
+    </div>
+    <script>
+        $(function() {
+            $("#list").transfers();
+        });
+    </script>
+</body>
+
+</html>

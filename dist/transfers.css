@@ -1,0 +1,70 @@
+.card-box {
+  padding: 20px;
+  box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  background-clip: padding-box;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+}
+
+.ui-jqgrid-bootstrap.ui-jqgrid {
+    border-radius: 0;
+}
+
+.ui-jqdialog.ui-jqgrid-bootstrap .ui-jqdialog-titlebar,
+.ui-jqgrid.ui-jqgrid-bootstrap .ui-jqgrid-caption {
+  background-color: white;
+  height: 36px;
+  line-height: 27px;
+  padding: 5px;
+}
+
+.ui-jqgrid-bdiv {
+  background-color: white;
+}
+
+.ui-jqgrid-pager {
+  background-color: white;
+}
+
+.ui-jqgrid.ui-jqgrid-bootstrap .ui-jqgrid-hdiv,
+.ui-jqgrid.ui-jqgrid-bootstrap .ui-jqgrid-legacy-subgrid>thead {
+  background-color: white;
+  border-bottom: 3px solid #ebeff2;
+}
+
+/*
+
+
+
+
+.ui-jqgrid.ui-jqgrid-bootstrap tr.jqfoot>td,
+.ui-jqgrid.ui-jqgrid-bootstrap tr.jqgfirstrow>td,
+.ui-jqgrid.ui-jqgrid-bootstrap tr.jqgroup>td,
+.ui-jqgrid.ui-jqgrid-bootstrap tr.jqgrow>td {
+  padding: 8px;
+}
+
+.ui-jqgrid .ui-jqgrid-resize-ltr {
+  margin: -2px -8px -2px 0;
+}
+
+.ui-jqgrid .ui-jqgrid-htable th {
+  padding: 8px;
+}
+
+.ui-jqgrid.ui-jqgrid-bootstrap tr.jqgfirstrow>td {
+  padding: 0 .3em;
+}
+
+.panel-footer.ui-jqgrid-pager {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 35em) {
+  .table-bordered.ui-jqgrid-btable {
+    width: 100% !important;
+  }
+}*/

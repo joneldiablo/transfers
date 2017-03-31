@@ -1,0 +1,546 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "producto": "confitera",
+            "marca": "cervecera"
+        },
+        {
+            "id": 2,
+            "producto": "pepsico",
+            "marca": "tostadero"
+        },
+        {
+            "id": 3,
+            "producto": "inarco",
+            "marca": "agroempresarios"
+        },
+        {
+            "id": 4,
+            "producto": "invernador",
+            "marca": "cepita"
+        },
+        {
+            "id": 5,
+            "producto": "chinaco",
+            "marca": "fanta"
+        },
+        {
+            "id": 6,
+            "producto": "fertinal",
+            "marca": "chaneque"
+        },
+        {
+            "id": 7,
+            "producto": "rubbermaid",
+            "marca": "mayoras"
+        },
+        {
+            "id": 8,
+            "producto": "ceimsa",
+            "marca": "royne"
+        },
+        {
+            "id": 9,
+            "producto": "brossat",
+            "marca": "folidol"
+        },
+        {
+            "id": 10,
+            "producto": "conagra",
+            "marca": "coca"
+        },
+        {
+            "id": 11,
+            "producto": "tensi",
+            "marca": "rodis"
+        },
+        {
+            "id": 12,
+            "producto": "salfa",
+            "marca": "bresler"
+        },
+        {
+            "id": 13,
+            "producto": "desmoldar",
+            "marca": "immsa"
+        },
+        {
+            "id": 14,
+            "producto": "pochteca",
+            "marca": "sinca"
+        },
+        {
+            "id": 15,
+            "producto": "suplidora",
+            "marca": "herna"
+        },
+        {
+            "id": 16,
+            "producto": "hidrocentro",
+            "marca": "enlatadora"
+        },
+        {
+            "id": 17,
+            "producto": "fuello",
+            "marca": "bafar"
+        },
+        {
+            "id": 18,
+            "producto": "chinaco",
+            "marca": "cubanitos"
+        },
+        {
+            "id": 19,
+            "producto": "refresquería",
+            "marca": "chocolatín"
+        },
+        {
+            "id": 20,
+            "producto": "canchera",
+            "marca": "tecna"
+        },
+        {
+            "id": 21,
+            "producto": "cemitas",
+            "marca": "fosforera"
+        },
+        {
+            "id": 22,
+            "producto": "rexona",
+            "marca": "indusria"
+        },
+        {
+            "id": 23,
+            "producto": "peldar",
+            "marca": "danone"
+        },
+        {
+            "id": 24,
+            "producto": "barcel",
+            "marca": "aguapanela"
+        },
+        {
+            "id": 25,
+            "producto": "marcolina",
+            "marca": "pepsi"
+        },
+        {
+            "id": 26,
+            "producto": "cocada",
+            "marca": "martón"
+        },
+        {
+            "id": 27,
+            "producto": "retacitos",
+            "marca": "botellería"
+        },
+        {
+            "id": 28,
+            "producto": "naturalísimo",
+            "marca": "superama"
+        },
+        {
+            "id": 29,
+            "producto": "yukery",
+            "marca": "andin"
+        },
+        {
+            "id": 30,
+            "producto": "elj",
+            "marca": "paleterías"
+        },
+        {
+            "id": 31,
+            "producto": "enlata",
+            "marca": "chingaste"
+        },
+        {
+            "id": 32,
+            "producto": "petromed",
+            "marca": "aydee"
+        },
+        {
+            "id": 33,
+            "producto": "pesq",
+            "marca": "beverage"
+        },
+        {
+            "id": 34,
+            "producto": "mavesa",
+            "marca": "horchatas"
+        },
+        {
+            "id": 35,
+            "producto": "borjita",
+            "marca": "kellogs"
+        },
+        {
+            "id": 36,
+            "producto": "cervecera",
+            "marca": "mastellone"
+        },
+        {
+            "id": 37,
+            "producto": "lorencito",
+            "marca": "sibo"
+        },
+        {
+            "id": 38,
+            "producto": "sanluis",
+            "marca": "profesía"
+        },
+        {
+            "id": 39,
+            "producto": "gruma",
+            "marca": "bizcochería"
+        },
+        {
+            "id": 40,
+            "producto": "saché",
+            "marca": "sours"
+        },
+        {
+            "id": 41,
+            "producto": "mirinda",
+            "marca": "cachapas"
+        },
+        {
+            "id": 42,
+            "producto": "kotex",
+            "marca": "chocolateras"
+        },
+        {
+            "id": 43,
+            "producto": "tahoneros",
+            "marca": "fruco"
+        },
+        {
+            "id": 44,
+            "producto": "memelas",
+            "marca": "immsa"
+        },
+        {
+            "id": 45,
+            "producto": "quesadas",
+            "marca": "megatiendas"
+        },
+        {
+            "id": 46,
+            "producto": "marinela",
+            "marca": "fertimex"
+        },
+        {
+            "id": 47,
+            "producto": "cidosa",
+            "marca": "dulcero"
+        },
+        {
+            "id": 48,
+            "producto": "sinca",
+            "marca": "coca"
+        },
+        {
+            "id": 49,
+            "producto": "confeccionista",
+            "marca": "maxy"
+        },
+        {
+            "id": 50,
+            "producto": "acucar",
+            "marca": "ossenbach"
+        },
+        {
+            "id": 51,
+            "producto": "imusa",
+            "marca": "kellogs"
+        },
+        {
+            "id": 52,
+            "producto": "kativo",
+            "marca": "degustamos"
+        },
+        {
+            "id": 53,
+            "producto": "galletitas",
+            "marca": "tosepan"
+        },
+        {
+            "id": 54,
+            "producto": "qé",
+            "marca": "rotisería"
+        },
+        {
+            "id": 55,
+            "producto": "fertimex",
+            "marca": "yoplait"
+        },
+        {
+            "id": 56,
+            "producto": "bonafont",
+            "marca": "playtex"
+        },
+        {
+            "id": 57,
+            "producto": "cangre",
+            "marca": "cospa"
+        },
+        {
+            "id": 58,
+            "producto": "inarco",
+            "marca": "bolachas"
+        },
+        {
+            "id": 59,
+            "producto": "agrana",
+            "marca": "morelianas"
+        },
+        {
+            "id": 60,
+            "producto": "rassini",
+            "marca": "panetón"
+        },
+        {
+            "id": 61,
+            "producto": "quimí",
+            "marca": "champignones"
+        },
+        {
+            "id": 62,
+            "producto": "mayoras",
+            "marca": "megatiendas"
+        },
+        {
+            "id": 63,
+            "producto": "pinturerías",
+            "marca": "listerine"
+        },
+        {
+            "id": 64,
+            "producto": "sidral",
+            "marca": "cadenalco"
+        },
+        {
+            "id": 65,
+            "producto": "floto",
+            "marca": "cuétara"
+        },
+        {
+            "id": 66,
+            "producto": "envasamiento",
+            "marca": "mantecadas"
+        },
+        {
+            "id": 67,
+            "producto": "embotelladora",
+            "marca": "chocolatín"
+        },
+        {
+            "id": 68,
+            "producto": "rassini",
+            "marca": "mezclillas"
+        },
+        {
+            "id": 69,
+            "producto": "esús",
+            "marca": "videocentro"
+        },
+        {
+            "id": 70,
+            "producto": "marquesote",
+            "marca": "condumex"
+        },
+        {
+            "id": 71,
+            "producto": "accesories",
+            "marca": "accesories"
+        },
+        {
+            "id": 72,
+            "producto": "dhers",
+            "marca": "aptiva"
+        },
+        {
+            "id": 73,
+            "producto": "jocoque",
+            "marca": "koipe"
+        },
+        {
+            "id": 74,
+            "producto": "regalándolos",
+            "marca": "galletera"
+        },
+        {
+            "id": 75,
+            "producto": "hylsamex",
+            "marca": "torreja"
+        },
+        {
+            "id": 76,
+            "producto": "cospa",
+            "marca": "chenta"
+        },
+        {
+            "id": 77,
+            "producto": "marquesote",
+            "marca": "daiber"
+        },
+        {
+            "id": 78,
+            "producto": "ducilo",
+            "marca": "mantecadas"
+        },
+        {
+            "id": 79,
+            "producto": "megatiendas",
+            "marca": "sintex"
+        },
+        {
+            "id": 80,
+            "producto": "sancor",
+            "marca": "reynera"
+        },
+        {
+            "id": 81,
+            "producto": "chuchitos",
+            "marca": "remante"
+        },
+        {
+            "id": 82,
+            "producto": "fertimex",
+            "marca": "despulpadoras"
+        },
+        {
+            "id": 83,
+            "producto": "bolachas",
+            "marca": "tornell"
+        },
+        {
+            "id": 84,
+            "producto": "pichirilo",
+            "marca": "periañez"
+        },
+        {
+            "id": 85,
+            "producto": "sinca",
+            "marca": "ducilo"
+        },
+        {
+            "id": 86,
+            "producto": "reynera",
+            "marca": "naranjadas"
+        },
+        {
+            "id": 87,
+            "producto": "cragnolini",
+            "marca": "pulco"
+        },
+        {
+            "id": 88,
+            "producto": "telettra",
+            "marca": "abacerías"
+        },
+        {
+            "id": 89,
+            "producto": "jumex",
+            "marca": "arochi"
+        },
+        {
+            "id": 90,
+            "producto": "panificados",
+            "marca": "sudamtex"
+        },
+        {
+            "id": 91,
+            "producto": "torrefactora",
+            "marca": "piladora"
+        },
+        {
+            "id": 92,
+            "producto": "cachapas",
+            "marca": "alcoholado"
+        },
+        {
+            "id": 93,
+            "producto": "mortadelas",
+            "marca": "electroandina"
+        },
+        {
+            "id": 94,
+            "producto": "arance",
+            "marca": "maquilado"
+        },
+        {
+            "id": 95,
+            "producto": "refresquería",
+            "marca": "naranjadas"
+        },
+        {
+            "id": 96,
+            "producto": "moento",
+            "marca": "nutri"
+        },
+        {
+            "id": 97,
+            "producto": "maí",
+            "marca": "pericona"
+        },
+        {
+            "id": 98,
+            "producto": "racacha",
+            "marca": "pifas"
+        },
+        {
+            "id": 99,
+            "producto": "mantequerías",
+            "marca": "ailo"
+        },
+        {
+            "id": 100,
+            "producto": "infosel",
+            "marca": "gemex"
+        }
+    ],
+    "sucursales": [
+        {
+            "id": 1,
+            "branch": "ixtlahuaca"
+        },
+        {
+            "id": 2,
+            "branch": "tapalapa"
+        },
+        {
+            "id": 3,
+            "branch": "apetatitlán"
+        },
+        {
+            "id": 4,
+            "branch": "huejotitán"
+        },
+        {
+            "id": 5,
+            "branch": "cueramaro"
+        },
+        {
+            "id": 6,
+            "branch": "chinicuila"
+        },
+        {
+            "id": 7,
+            "branch": "guarizama"
+        },
+        {
+            "id": 8,
+            "branch": "tepeojuma"
+        },
+        {
+            "id": 9,
+            "branch": "ahuatempan"
+        },
+        {
+            "id": 10,
+            "branch": "tetlatlahuca"
+        }
+    ]
+}
