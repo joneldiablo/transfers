@@ -2,31 +2,65 @@
 <html>
 
 <head>
-    <title>transfers</title>
-    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../bower_components/free-jqgrid/dist/css/ui.jqgrid.min.css" />
-    <link rel="stylesheet" href="../bower_components/components-font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="../bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css" />
+  <title>jQuery transfers</title>
+  <!-- bower_components styles -->
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../bower_components/free-jqgrid/dist/css/ui.jqgrid.min.css" />
+  <link rel="stylesheet" href="../bower_components/components-font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="../bower_components/select2/dist/css/select2.min.css">
+  <link rel="stylesheet" href="../bower_components/select2-bootstrap-theme/dist/select2-bootstrap.min.css">
+  <!-- bower_components scripts -->
+  <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="../bower_components/free-jqgrid/dist/jquery.jqgrid.min.js"></script>
+  <script src="../bower_components/latinize/latinize.js"></script>
+  <script src="../bower_components/select2/dist/js/select2.full.min.js"></script>
+  <script src="../bower_components/select2/dist/js/i18n/es.js"></script>
+  <!--tps styles -->
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="./assets/css/core.css" rel="stylesheet" type="text/css" />
+  <link href="./assets/css/components.css" rel="stylesheet" type="text/css" />
+  <link href="./assets/css/icons.css" rel="stylesheet" type="text/css" />
+  <link href="./assets/css/pages.css" rel="stylesheet" type="text/css" />
+  <link href="./assets/css/menu.css" rel="stylesheet" type="text/css" />
+  <link href="./assets/css/responsive.css" rel="stylesheet" type="text/css" />
+  <link href="./assets/css/tps.css" rel="stylesheet" type="text/css" />
 
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
-    <script src="../bower_components/free-jqgrid/dist/jquery.jqgrid.min.js"></script>
+  <!--transfers -->
+  <link rel="stylesheet" href="../src/transfers.css" />
+  <script src="../src/i18n/grid.locale-mx.js"></script>
+  <!-- <script src="../src/i18n/locale.es-MX.min.js"></script> -->
+  <script src="../src/transfers.js"></script>
 
-    <link rel="stylesheet" href="../src/transfers.css" />
-    <script src="../src/i18n/grid.locale-mx.js"></script>
-    <script src="../src/transfers.js"></script>
 </head>
 
-<body style="background-color: #ebeff2;">
-    <div id="outerDiv" class="card-box" style="margin: 5px;">
-        <table id="list"></table>
+<body>
+  <div class="content-page">
+    <div class="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <br>
+            <div id="transfers-wrap">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <script>
-        $(function() {
-            $("#list").transfers();
-        });
-    </script>
+  </div>
+  <script>
+    $(function() {
+      $.ajaxSetup({
+        headers: {
+          'X-CSRF-TOKEN': $("meta[name='_csrf']").attr("content")
+        }
+      });
+      $("#transfers-wrap").transfers();
+      $("#transfers-wrap").on("transfers.saveRow", function(e, data) {
+        console.log(data);
+      });
+    });
+  </script>
 </body>
 
 </html>

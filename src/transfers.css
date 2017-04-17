@@ -1,70 +1,125 @@
-.card-box {
+.transfers .ui-jqgrid.ui-jqgrid-bootstrap>.ui-jqgrid-view>.ui-userdata {
+  background-color: #F4F8FB;
+}
+
+.transfers .ui-jqgrid.ui-jqgrid-bootstrap .ui-jqgrid-hdiv,
+.transfers .ui-jqgrid.ui-jqgrid-bootstrap .ui-jqgrid-legacy-subgrid>thead {
+  background-color: #F4F8FB;
+}
+
+.transfers .ui-jqgrid.ui-jqgrid-bootstrap>.ui-jqgrid-view>.ui-jqgrid-sdiv td {
+  background-color: #F4F8FB;
+}
+
+.transfers .ui-jqgrid.ui-jqgrid-bootstrap .ui-jqgrid-caption,
+.ui-jqdialog.ui-jqgrid-bootstrap .ui-jqdialog-titlebar {
+  background-color: #F4F8FB;
+  -ms-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -ms-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.transfers .ui-jqgrid.ui-jqgrid-bootstrap .ui-jqgrid-bootstrap-corner-bottom {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.transfers .ui-jqgrid.ui-jqgrid-bootstrap {
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+  border-top-left-radius: 0x;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.transfers.ui-jqgrid-bootstrap.ui-jqdialog .modal-content {
+  padding: 0;
+}
+
+.transfers .ui-jqgrid.ui-jqgrid-bootstrap .ui-jqgrid-caption,
+.transfers.ui-jqgrid-bootstrap.ui-jqdialog .modal-header.ui-jqdialog-titlebar,
+.transfers.ui-jqgrid-bootstrap.ui-jqdialog .ui-jqdialog-content {
   padding: 20px;
-  box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  background-clip: padding-box;
-  margin-bottom: 20px;
-  background-color: #ffffff;
 }
 
-.ui-jqgrid-bootstrap.ui-jqgrid {
-    border-radius: 0;
+.transfers .ui-jqgrid-btable tbody>tr.active>td {
+  background-color: #ecf6e8 !important;
 }
 
-.ui-jqdialog.ui-jqgrid-bootstrap .ui-jqdialog-titlebar,
-.ui-jqgrid.ui-jqgrid-bootstrap .ui-jqgrid-caption {
-  background-color: white;
-  height: 36px;
-  line-height: 27px;
-  padding: 5px;
+.transfers .ui-jqgrid-btable tbody>tr.active.success>td {
+  background-color: #dff0d8 !important;
 }
 
-.ui-jqgrid-bdiv {
-  background-color: white;
+.transfers input[type=text].editable.form-control {
+  height: 30px;
 }
 
-.ui-jqgrid-pager {
+.transfers .ui-jqgrid tr.jqgrow>td,
+.transfers .ui-jqgrid .ui-jqgrid-htable th {
+  height: 41px;
+  line-height: 3;
+  padding: 3px 8px;
+}
+
+.transfers .ui-jqgrid .ui-jqgrid-htable th {
+  vertical-align: middle;
   background-color: white;
 }
 
-.ui-jqgrid.ui-jqgrid-bootstrap .ui-jqgrid-hdiv,
-.ui-jqgrid.ui-jqgrid-bootstrap .ui-jqgrid-legacy-subgrid>thead {
-  background-color: white;
+.transfers .ui-jqgrid .ui-jqgrid-htable {
   border-bottom: 3px solid #ebeff2;
 }
 
-/*
-
-
-
-
-.ui-jqgrid.ui-jqgrid-bootstrap tr.jqfoot>td,
-.ui-jqgrid.ui-jqgrid-bootstrap tr.jqgfirstrow>td,
-.ui-jqgrid.ui-jqgrid-bootstrap tr.jqgroup>td,
-.ui-jqgrid.ui-jqgrid-bootstrap tr.jqgrow>td {
-  padding: 8px;
+.transfers .ui-jqgrid .table-striped>tbody>tr:nth-of-type(odd) {
+  background-color: white !important;
 }
 
-.ui-jqgrid .ui-jqgrid-resize-ltr {
-  margin: -2px -8px -2px 0;
+.transfers .ui-jqgrid .table-striped>tbody>tr:nth-of-type(even) {
+  background-color: #f4f8fb !important;
 }
 
-.ui-jqgrid .ui-jqgrid-htable th {
-  padding: 8px;
+.transfers .ui-jqgrid .table>thead>tr>th.active {
+  background-color: rgba(252, 253, 255, 0.5) !important;
 }
 
-.ui-jqgrid.ui-jqgrid-bootstrap tr.jqgfirstrow>td {
-  padding: 0 .3em;
+.transfers td.ui-jqgrid-pg-center {
+  height: 40px;
 }
 
-.panel-footer.ui-jqgrid-pager {
-  margin-top: 20px;
+.transfers .ui-jqgrid .ui-jqgrid-pager .ui-pager-control,
+.transfers .ui-jqgrid .ui-jqgrid-toppager .ui-pager-control {
+  padding: 0px 5px;
 }
 
-@media screen and (max-width: 35em) {
-  .table-bordered.ui-jqgrid-btable {
-    width: 100% !important;
-  }
-}*/
+.transfers .fa-pencil:before {
+  color: #797979;
+}
+
+
+/**
+ *Select2
+ */
+
+.transfers .select2-search__field {
+  margin-bottom: 0;
+}
+
+.transfers .select2-container--default.select2-container--focus .select2-selection--multiple {
+  border: 1px solid #aaa;
+}
+
+.transfers .select2-container--default .select2-selection--multiple {
+  border: 1px solid #E3E3E3;
+}
+
+.transfers span.select2.select2-container.select2-container--default {
+  font-weight: lighter;
+  margin-top: 5px;
+  transition: all 300ms linear;
+}
+
+.transfers .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+  padding: 4px 12px;
+}
