@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>jQuery transfers</title>
+	<!-- libs styles -->
+	<link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="libs/free-jqgrid/dist/css/ui.jqgrid.min.css" />
+	<link rel="stylesheet" href="libs/components-font-awesome/css/fontawesome.min.css" />
+	<link rel="stylesheet" href="libs/select2/dist/css/select2.min.css">
+	<link rel="stylesheet" href="libs/select2-bootstrap-theme/dist/select2-bootstrap.min.css">
+	<!-- libs scripts -->
+	<script src="libs/jquery/dist/jquery.min.js"></script>
+	<script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="libs/free-jqgrid/dist/jquery.jqgrid.min.js"></script>
+	<script src="libs/latinize/latinize.js"></script>
+	<script src="libs/select2/dist/js/select2.full.min.js"></script>
+	<script src="libs/select2/dist/js/i18n/es.js"></script>
+	<!--tps styles -->
+	<link href="./assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="./assets/css/core.css" rel="stylesheet" type="text/css" />
+	<link href="./assets/css/components.css" rel="stylesheet" type="text/css" />
+	<link href="./assets/css/icons.css" rel="stylesheet" type="text/css" />
+	<link href="./assets/css/pages.css" rel="stylesheet" type="text/css" />
+	<link href="./assets/css/menu.css" rel="stylesheet" type="text/css" />
+	<link href="./assets/css/responsive.css" rel="stylesheet" type="text/css" />
+	<link href="./assets/css/tps.css" rel="stylesheet" type="text/css" />
+
+	<!--transfers -->
+	<link rel="stylesheet" href="dist/transfers.min.css" />
+	<script src="dist/i18n/grid.locale-mx.js"></script>
+	<!-- <script src="../src/i18n/locale.es-MX.min.js"></script> -->
+	<script src="dist/transfers.min.js"></script>
+
+</head>
+
+<body>
+	<div class="content-page">
+		<div class="content">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<br>
+						<div id="transfers-wrap">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		$(function () {
+			$.ajaxSetup({
+				headers: {
+					'X-CSRF-TOKEN': $("meta[name='_csrf']").attr("content")
+				}
+			});
+			$("#transfers-wrap").transfers({
+				jqgrid: {
+					url: "dummy/DB.json",
+					jsonReader: {
+						root: "productos",
+					},
+					colNames: ["", "Producto", "Marca", "Origen", "Destino", "Cantidad", ""],
+					colModel: [{
+						name: "id",
+						hidden: true,
+						editable: false,
+						search: false
+					}, {
+						name: "producto",
+						align: "left",
+						editable: false
+					}, {
+						name: "marca",
+						align: "left",
+						editable: false
+					}, {
+						name: "origen",
+						autoResizing: {
+							minColWidth: 80
+						},
+						editable: false,
+						search: false,
+						sortable: false
+					}, {
+						name: "destino",
+						autoResizing: {
+							minColWidth: 80
+						},
+						editable: false,
+						search: false,
+						sortable: false
+					}, {
+						name: "cantidad",
+						autoResizing: {
+							minColWidth: 80
+						},
+						sortable: false,
+						editable: true,
+						search: false
+					}, {
+						name: "act",
+						width: 80,
+						template: "actions",
+						formatoptions: { delbutton: false }
+					}],
+					datatype: "json",
+					hidegrid: false,
+					loadonce: true,
+					navOptions: {
+						reloadGridOptions: {
+							fromServer: true
+						}
+					},
+					altRows: true,
+					autowidth: true,
+					shrinkToFit: true,
+					viewrecords: true,
+					loadui: true,
+					autoresizeOnLoad: true,
+					cmTemplate: {
+						autoResizable: true,
+						editable: true
+					},
+					guiStyle: "bootstrap",
+					iconSet: "fontAwesome",
+					rowNum: 10,
+					autoResizing: {
+						compact: true
+					},
+					rowList: [10, 20, 50 /*, "10000:todos"*/],
+					autoencode: true,
+					sortable: true,
+					pager: true,
+					inlineEditing: {
+						keys: true,
+						defaultFocusField: "origen",
+						focusField: "origen"
+					},
+					rownumbers: false,
+					caption: "",
+					grouping: false,
+					groupingView: { //no hace nada si grouping false
+						groupField: ["sucursal"],
+						groupColumnShow: [true],
+						groupText: [""],
+						groupOrder: ["asc"],
+						groupSummary: [false],
+						groupSummaryPos: ["header"],
+						groupCollapse: true
+					}
+				}
+			});
+			$("#transfers-wrap").on("transfers.saveRow", function (e, data) {
+				console.log(data);
+			});
+		});
+	</script>
+</body>
+
+</html>
